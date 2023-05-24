@@ -17,7 +17,7 @@ function App() {
   const [pathRandom, setPathRandom] = useState(initialPath)
 
   const objStyle = {
-    backgroundImage: `url('../public/fondo${pathRandom}.jpg')`
+    backgroundImage: `url('/fondo${pathRandom}.jpg')`
   }
 
   return (
@@ -25,7 +25,7 @@ function App() {
       <div className="container">
       <h1>Galletas de la Fortuna</h1>
       <div className="main">
-        <img src="/public/rectangle1.svg" alt="paper" className="paper"/>
+        <img src="/rectangle1.svg" alt="paper" className="paper"/>
         <PhrasesCard phraseRandom={phraseRandom}/>
       </div>
       <ButtonPhrase
