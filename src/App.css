@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Nag+Mundari&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.app {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    gap: 3rem;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 3rem;
+    margin-bottom: 3rem;
+
+    font-size: 2.5rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* margin: 5em 0; */
+
+}
+
+.paper {
+    min-width: 250px;
+    width: 80%;
+}
+
+.card {
+    width: 70%;
+    position: absolute;
+
+    font-style: italic;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 1.8;
+}
+
+button {
+    height: 55px;
+    width: 40%;
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(216, 216, 216, 0.438);
+    border: solid #c7c5c5ef;
+    border-radius: 1rem;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: gray;
+    border: solid gray;
+
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 2rem;
+    
+    min-height: 50px;
+    width: 50%;
+    background-color: #ffffff96;
+    border: solid #ffffffa2;
+    border-radius: 0.8rem;
+}
+
+@media (min-width: 500px) {
+    
+}
